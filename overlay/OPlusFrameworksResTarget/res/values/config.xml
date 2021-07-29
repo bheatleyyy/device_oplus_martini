@@ -384,6 +384,11 @@
          hysteresis threshold. -->
     <integer name="config_autoBrightnessBrighteningLightDebounce">3000</integer>
     <integer name="config_autoBrightnessDarkeningLightDebounce">3000</integer>
+    
+    <!-- Screen brightness used to dim the screen while dozing in a very low power state.
+        May be less than the minimum allowed brightness setting
+        that can be set by the user. -->
+    <integer name="config_screenBrightnessDoze">35</integer>
 
     <!-- See DisplayWhiteBalanceController.
          An array containing a list of display color temperatures, in Kelvin. See
