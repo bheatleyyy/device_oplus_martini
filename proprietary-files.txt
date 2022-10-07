@@ -129,20 +129,16 @@ odm/etc/init/vendor.qti.secure_element@1.2-service.rc
 odm/lib64/android.hardware.secure_element@1.0-impl.so
 
 # Sensors
-odm/etc/sensor/config/lahaina_aw9610x_0.json
-odm/etc/sensor/config/lahaina_aw9610x_down_0.json
-odm/etc/sensor/config/lahaina_bmp380.json
-odm/etc/sensor/config/lahaina_lps22hb.json
 odm/etc/sensor/config/lahaina_qrd_ak0991x.json
 odm/etc/sensor/config/lahaina_qrd_alsps.json
-odm/etc/sensor/config/lahaina_qrd_bmi16x.json
+odm/etc/sensor/config/lahaina_qrd_cct.json
 odm/etc/sensor/config/lahaina_qrd_cct_rear.json
 odm/etc/sensor/config/lahaina_qrd_icm4x6xx.json
+odm/etc/sensor/config/lahaina_qrd_lsm6dso.json
 odm/etc/sensor/config/lahaina_qrd_mmc56x3x.json
-odm/etc/sensor/config/lahaina_qrd_sx932x.json
-odm/etc/sensor/config/lahaina_qrd_sx932x_down.json
-odm/etc/sensor/config/lahaina_tcs3707.json
+odm/etc/sensor/config/lahaina_qrd_sx933x_0.json
 odm/etc/sensor/sensor_config.json
+odm/etc/sensor.cfg
 
 # WiFi
 odm/etc/wifi/bdwlan.elf
