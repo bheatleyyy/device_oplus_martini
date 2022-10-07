@@ -118,6 +118,11 @@ odm/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so
 odm/lib64/vendor.qti.esepowermanager@1.0.so
 odm/lib64/vendor.qti.esepowermanager@1.1.so
 
+# Firmware (Touchpanel)
+odm/firmware/tp/20820/FW_S3908_SAMSUNG.img
+odm/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img
+odm/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img
+
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_20821:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_20821:vendor/etc/libnfc-nci.conf
