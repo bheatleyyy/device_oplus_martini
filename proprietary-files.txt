@@ -123,6 +123,15 @@ odm/firmware/tp/20820/FW_S3908_SAMSUNG.img
 odm/firmware/tp/20820/FW_S3908_SAMSUNG_FAE.img
 odm/firmware/tp/20820/LIMIT_S3908_SAMSUNG.img
 
+# Graphics (Adreno Firmware)
+vendor/firmware/a660_gmu.bin
+vendor/firmware/a660_sqe.fw
+vendor/firmware/a660_zap.b00
+vendor/firmware/a660_zap.b01
+vendor/firmware/a660_zap.b02
+vendor/firmware/a660_zap.elf
+vendor/firmware/a660_zap.mdt
+
 # NFC
 odm/etc/nfc/libnfc-mtp-SN100.conf_20821:vendor/etc/libnfc-nxp.conf
 odm/etc/nfc/libnfc-nci.conf_20821:vendor/etc/libnfc-nci.conf
