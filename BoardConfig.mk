@@ -5,9 +5,9 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8350-common/BoardConfigCommon.mk
+include device/oplus/sm8350-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/lemonade
+DEVICE_PATH := device/oplus/martini
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -19,4 +19,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/lemonade/BoardConfigVendor.mk
+include vendor/oplus/martini/BoardConfigVendor.mk
