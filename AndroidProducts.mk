@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_martini.mk
+    $(LOCAL_DIR)/aosp_martini.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_martini-user \
-    lineage_martini-userdebug \
-    lineage_martini-eng
+    aosp_martini-user \
+    aosp_martini-userdebug \
+    aosp_martini-eng
