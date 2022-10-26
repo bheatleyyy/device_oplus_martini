@@ -1,1 +1,1 @@
-require board=lahaina|OnePlus9RT
+require board=lahaina|OnePlus9RT|OP5155L1|martini
