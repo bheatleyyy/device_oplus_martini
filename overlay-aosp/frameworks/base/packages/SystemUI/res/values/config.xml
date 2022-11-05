@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2022 PixelOS
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+
+    <!-- Alert Slider UI -->
+    <dimen name="tri_state_down_dialog_position">420px</dimen>
+    <dimen name="tri_state_down_dialog_position_l">300px</dimen>
+    <dimen name="tri_state_middle_dialog_position">280px</dimen>
+    <dimen name="tri_state_middle_dialog_position_l">300px</dimen>
+    <dimen name="tri_state_up_dialog_position">140px</dimen>
+    <dimen name="tri_state_up_dialog_position_l">300px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep">24px</dimen>
+    <dimen name="tri_state_up_dialog_position_deep_land">24px</dimen>
+
+</resources>
