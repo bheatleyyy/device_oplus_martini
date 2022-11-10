@@ -15,4 +15,7 @@
     <dimen name="tri_state_up_dialog_position_deep">24px</dimen>
     <dimen name="tri_state_up_dialog_position_deep_land">24px</dimen>
 
+    <!-- Allow devices override audio panel location to the left side -->
+    <bool name="config_audioPanelOnLeftSide">true</bool>
+
 </resources>
