@@ -10,6 +10,7 @@ include device/oplus/sm8350-common/BoardConfigCommon.mk
 DEVICE_PATH := device/oplus/martini
 
 # Display
+SOONG_CONFIG_qtidisplay_udfps := true
 TARGET_SCREEN_DENSITY := 450
 
 # Partitions
