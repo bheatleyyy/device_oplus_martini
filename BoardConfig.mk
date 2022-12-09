@@ -12,6 +12,9 @@ DEVICE_PATH := device/oplus/martini
 # Display
 TARGET_SCREEN_DENSITY := 450
 
+# Partitions
+BOARD_SUPER_PARTITION_SIZE := 11190403072
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
