@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 9RT (MT2111_11_C.07).
+## are from OnePlus 9RT (MT2111_11_F.12).
 
 # ACDBs
 odm/etc/acdbdata/Audio_Parameter_Version.txt
@@ -219,6 +219,7 @@ odm/lib64/libop-ai-beauty-faceretouch-cn.so
 odm/lib64/liboptical_zoom_dc.so
 odm/lib64/liboptical_zoom_vs.so
 odm/lib64/libormshalclient.so
+odm/lib64/libosensehalclient.so
 odm/lib64/libsnpe_dsp_domains_v2.so
 odm/lib64/libsnpe_dsp_domains_v3.so
 odm/lib64/libsnpe_htp.so
@@ -234,6 +235,7 @@ odm/lib64/libtriplecam_video_optical_zoom.so
 odm/lib64/libwatermark_photo.so
 odm/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
 odm/lib64/vendor.oplus.hardware.orms@1.0.so
+odm/lib64/vendor.oplus.hardware.osense.client@1.0.so
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
@@ -354,8 +356,8 @@ vendor/lib64/libsynx.so
 vendor/lib64/libtfestriping.so
 vendor/lib64/libthreadutils.so
 vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so
-vendor/lib64/vendor.qti.hardware.camera.cameraextension@1.0-service-impl.so
-vendor/lib64/vendor.qti.hardware.camera.cameraextension@1.0.so
+vendor/lib64/vendor.oplus.hardware.cameraextension@1.0.so
+odm/lib64/vendor.oplus.hardware.cameraextension@1.0-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Camera-arcsoft
@@ -407,6 +409,7 @@ odm/etc/camera/cfr_bin/CFR_imx766.bin
 odm/etc/camera/cfr_bin/CFR_imx766_uw.bin
 odm/etc/camera/cfr_bin/CFR_s5k3m5.bin
 odm/etc/camera/config/camera_unit_config
+odm/etc/camera/config/camera_unit_feature_config.protobuf
 odm/etc/camera/config/imx471
 odm/etc/camera/config/imx481
 odm/etc/camera/config/imx766
@@ -625,8 +628,6 @@ odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin
 odm/etc/camera/filters_res/film_grain_small.bin
 odm/etc/camera/filters_res/lut_all_points.png
 odm/etc/camera/filters_res/overlay_p4_3_weak.png
-odm/etc/camera/megvii/merged_model
-odm/etc/camera/megvii/merged_model_post
 odm/etc/camera/micFilter/blue_pink_3.png
 odm/etc/camera/micFilter/curve_0.png
 odm/etc/camera/micFilter/green_orange_2.png
