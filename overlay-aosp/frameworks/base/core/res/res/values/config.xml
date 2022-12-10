@@ -13,4 +13,7 @@
          1: Right side -->
     <integer name="config_alertSliderLocation">1</integer>
 
+    <!-- Whether devices supports in-display fingerprint when screen is off -->
+    <bool name="config_supportsScreenOffUdfps">true</bool>
+
 </resources>
