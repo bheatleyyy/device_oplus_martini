@@ -375,7 +375,7 @@
          -2 is invalid so setting will resort to int value specified above.
          Set this to 0.0 to allow screen to go to minimal brightness.
          The user is forbidden from setting the brightness below this level. -->
-    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.001954079</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">0.02</item>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
