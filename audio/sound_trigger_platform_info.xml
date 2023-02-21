@@ -58,6 +58,7 @@
         <param concurrent_capture="false" />
         <param concurrent_voip_call="false" />
         <param concurrent_voice_call="false" />
+        <param sva_transparent_disabled="true" />
     </common_config>
     <acdb_ids>
         <param DEVICE_HANDSET_MIC_APE="100" />
@@ -79,6 +80,8 @@
     <!-- QTI SVA -->
     <sound_model_config>
         <param vendor_uuid="68ab2d40-e860-11e3-95ef-0002a5d5c51b" />
+        <param kw_start_tolerance="600"/>
+        <param kw_end_tolerance="600"/>
         <param execution_type="ADSP" />
         <param merge_first_stage_sound_models="false"/>
         <param max_ape_phrases="20" />
@@ -88,10 +91,12 @@
         <param bit_width="16" />
         <param out_channels="1"/> <!-- Module output channels -->
         <param dam_token_id="1"/>
+        <param fluence_type="FLUENCE_DMIC" />
 
         <arm_ss_usecase>
             <!-- Options are "KEYWORD_DETECTION", "USER_VERIFICATION", "CUSTOM_DETECTION"  -->
             <param sm_detection_type= "KEYWORD_DETECTION" />
+            <param data_after_kw_end="720" />
             <param sm_id="0x2" />
             <param module_lib="libcapiv2svacnn.so"/>
             <param sample_rate="16000"/>
@@ -108,6 +113,7 @@
         </arm_ss_usecase>
         <arm_ss_usecase>
             <param sm_detection_type= "KEYWORD_DETECTION" />
+            <param data_after_kw_end="720" />
             <param sm_id="0x8" />
             <param module_lib="libcapiv2svarnn.so"/>
             <param sample_rate="16000"/>
@@ -138,7 +144,7 @@
             <param lpi_mode="NON_LPI_BARGE_IN" />
             <param app_type="2" /> <!-- app type used in ACDB -->
             <param pdk5_app_type="5" />
-            <param in_channels="3"/> <!-- Module input channels -->
+            <param in_channels="2"/> <!-- Module input channels -->
             <module_params>
                 <param module_type="GMM" />
                 <param load_sound_model_ids="0x00012C1C, 0x0, 0x00012C14" />
@@ -168,7 +174,7 @@
             <!-- fluence_type: "FLUENCE_MIC", "FLUENCE_DMIC", "FLUENCE_TMIC"   -->
             <!-- "FLUENCE_QMIC". Param value is valid when adm_cfg_profile -->
             <!-- is FFECNS -->
-            <param fluence_type="FLUENCE_DMIC" />
+            <param fluence_type="FLUENCE_MIC" />
             <param execution_mode="ADSP" />
             <!-- lpi_mode: "NON_LPI_BARGE_IN", "NON_LPI", "LPI" -->
             <!-- NON_LPI_BARGE_IN: Default non-LPI mode type. lsm_usecase -->
@@ -308,7 +314,7 @@
         <param sample_rate="16000" />
         <param bit_width="16" />
         <param out_channels="1"/> <!-- Module output channels -->
-        <param get_module_version="false"/>
+        <param get_module_version="true"/>
         <lsm_usecase>
             <param capture_device="HANDSET" />
             <!-- adm_cfg_profile should match with the one defined under adm_config -->
@@ -452,7 +458,7 @@
         <param app_type="69947" />
         <param sample_rate="16000" />
         <param bit_width="16" />
-        <param out_channels="3"/>
+        <param out_channels="1"/>
     </adm_config>
 
     <adm_config>
